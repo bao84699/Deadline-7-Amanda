@@ -1,0 +1,213 @@
+body {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+.taskbar {
+    height: 100%;
+    width: 78px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 159px;
+}
+.taskbar-e1 {
+    width: 78px;
+    height: 58px;
+    background: linear-gradient(269.84deg, #bed0f3 -38.97%, rgba(65, 130, 249, 0.00520833) 90.01%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: calc(100% - 78px);
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+}
+.size {
+    width: 24px;
+    height: 24px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 40px;
+}
+.nav-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.name {
+    font-weight: bold;
+    font-size: 24px;
+    color: #3E435D;
+}
+.date {
+    font-weight: 400;
+    color: rgb(186, 186, 186);
+}
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.nav-right img {
+    width: 52px;
+    height: 52px;
+}
+.seach {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    width: 354px;
+    height: 52px;
+    border-radius: 8px;
+}
+.seach img {
+    width: 24px;
+    height: 24px;
+    padding: 20px 14px;
+}
+.seach input {
+    border: none;
+    color: #ADA7A7;
+    font-size: 16px;
+}
+.form{
+    padding: 0 40px;
+    border-radius: 10px;
+    height: 856px; 
+}
+.topform {
+    border-top-left-radius: 20px;   
+    border-top-right-radius: 20px; 
+    width: 100%;       
+    height: 100px;
+    background: linear-gradient(270deg, #fef6e4 0%, #b7d3f2 100%);
+}
+.bottomform {
+    display: flex;
+    flex-direction: column;
+    padding: 32px; 
+    background-color: #FFFFFF;
+    gap: 30px;
+    border-bottom-left-radius: 20px;   
+    border-bottom-right-radius: 20px;
+}
+.top {
+    width: 100%;       
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lefttop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-top {
+    width: 100px;
+    height: 100px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    padding-left: 24px;
+}
+.nameofaccount {
+    font-size: 20px;
+    color: #000000; 
+    font-weight: 500;
+    font-style: Medium;
+}
+.gmail {
+    width: 198px;
+    height: 24px;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(186, 186, 186);
+}
+.button {
+    background-color: #4182F9;
+    width: 93px;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button p {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.center {
+    
+}
+.botinf {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.botinf1 {
+    width: calc((100% - 32px) / 2);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 14px 20px;
+    background-color: #F9F9F9;
+    color: rgb(186, 186, 186);
+}
+.box img {
+    opacity: 50%;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.emailaddress {
+    color: #000000; 
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+}
+.bottominf {
+    width: 266Px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addemail {
+    width: 209px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #E8EFFD;;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4182F9;
+}
