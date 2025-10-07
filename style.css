@@ -12,14 +12,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
     padding-top: 159px;
+    gap: 13px;
 }
 .taskbar-e1 {
     width: 78px;
     height: 58px;
     background: linear-gradient(269.84deg, #bed0f3 -38.97%, rgba(65, 130, 249, 0.00520833) 90.01%);
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taskbar-icon {
+    width: 78px;
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,8 +93,8 @@ body {
 }
 .form{
     padding: 0 40px;
-    border-radius: 10px;
-    height: 856px; 
+    height: 100%;
+    padding-bottom: 40px;
 }
 .topform {
     border-top-left-radius: 20px;   
@@ -187,6 +194,10 @@ body {
     flex-direction: column;
     gap: 26px;
 }
+.img-bot {
+    width: 48px;
+    height: 48px;
+}
 .emailaddress {
     color: #000000; 
     font-weight: 500;
@@ -198,6 +209,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+.infdate {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+}
+.infgmail {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 6px;
 }
 .addemail {
     width: 209px;
