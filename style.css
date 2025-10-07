@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     display: flex;
     flex-direction: row;
     padding: 0px;
@@ -18,7 +18,7 @@ body {
 .taskbar-e1 {
     width: 78px;
     height: 58px;
-    background: linear-gradient(269.84deg, #bed0f3 -38.97%, rgba(65, 130, 249, 0.00520833) 90.01%);
+    background: linear-gradient(269.84deg, #c5d4f3 -38.97%, rgba(65, 130, 249, 0.00520833) 100%);
     position: relative;
     display: flex;
     justify-content: center;
@@ -53,13 +53,19 @@ body {
     gap: 12px;
 }
 .name {
-    font-weight: bold;
+    font-style: Medium;
+    font-weight: 500;
     font-size: 24px;
     color: #3E435D;
 }
 .date {
     font-weight: 400;
-    color: rgb(186, 186, 186);
+    font-style: Light;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-weight: 300;
+    color: #ADA7A7;
 }
 .nav-right {
     display: flex;
@@ -84,12 +90,14 @@ body {
 .seach img {
     width: 24px;
     height: 24px;
-    padding: 20px 14px;
+    padding: 14px 14px 16px 20px;
 }
 .seach input {
+    font-family: "Poppins",sans-serif;
     border: none;
     color: #ADA7A7;
     font-size: 16px;
+    font-weight: 400;
 }
 .form{
     padding: 0 40px;
@@ -97,8 +105,8 @@ body {
     padding-bottom: 40px;
 }
 .topform {
-    border-top-left-radius: 20px;   
-    border-top-right-radius: 20px; 
+    border-top-left-radius: 10px;   
+    border-top-right-radius: 10px; 
     width: 100%;       
     height: 100px;
     background: linear-gradient(270deg, #fef6e4 0%, #b7d3f2 100%);
@@ -108,9 +116,8 @@ body {
     flex-direction: column;
     padding: 32px; 
     background-color: #FFFFFF;
-    gap: 30px;
-    border-bottom-left-radius: 20px;   
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 10px;   
+    border-bottom-right-radius: 10px;
 }
 .top {
     width: 100%;       
@@ -140,15 +147,14 @@ body {
     font-size: 20px;
     color: #000000; 
     font-weight: 500;
-    font-style: Medium;
 }
 .gmail {
     width: 198px;
     height: 24px;
     opacity: 0.5;
     font-size: 16px;
-    font-weight: normal;
-    color: rgb(186, 186, 186);
+    font-weight: 400;
+    color: #000000;
 }
 .button {
     background-color: #4182F9;
@@ -165,18 +171,22 @@ body {
     color: #ffffff;
 }
 .center {
-    
+    margin-top: 30px;
+    margin-bottom: 32px;
 }
 .botinf {
     display: flex;
-    gap: 32px;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 25px;
     flex-wrap: wrap;
 }
 .botinf1 {
-    width: calc((100% - 32px) / 2);
+    flex: 1 1 calc(50% - 32px);
     display: flex;
     flex-direction: column;
     gap: 12px;
+    opacity: 0.8;
 }
 .box {
     display: flex;
@@ -184,7 +194,7 @@ body {
     border-radius: 8px;
     padding: 14px 20px;
     background-color: #F9F9F9;
-    color: rgb(186, 186, 186);
+    color: #B0B0B0;
 }
 .box img {
     opacity: 50%;
@@ -216,6 +226,7 @@ body {
     font-size: 16px;
     color: rgba(0, 0, 0, 1);
     opacity: 50%;
+    margin: 0;
 }
 .infgmail {
     font-weight: 400;
