@@ -90,7 +90,7 @@ body {
 .seach img {
     width: 24px;
     height: 24px;
-    padding: 14px 14px 16px 20px;
+    padding: 14px 16px 14px 20px;
 }
 .seach input {
     font-family: "Poppins",sans-serif;
@@ -141,8 +141,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    padding: 20px;
-    padding-left: 24px;
+    padding: 20px 20px 20px 24px;
 }
 .nameofaccount {
     font-size: 20px;
