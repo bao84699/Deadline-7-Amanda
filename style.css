@@ -1,11 +1,11 @@
 body {
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins";
     display: flex;
     flex-direction: row;
     padding: 0px;
     margin: 0px;
 }
-.taskbar {
+.bar {
     height: 100%;
     width: 78px;
     background-color: #FFFFFF;
@@ -15,7 +15,7 @@ body {
     padding-top: 159px;
     gap: 13px;
 }
-.taskbar-e1 {
+.bar-e1 {
     width: 78px;
     height: 58px;
     background: linear-gradient(269.84deg, #c5d4f3 -38.97%, rgba(65, 130, 249, 0.00520833) 100%);
@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.taskbar-icon {
+.bar-icon {
     width: 78px;
     height: 58px;
     display: flex;
@@ -41,7 +41,7 @@ body {
     width: 24px;
     height: 24px;
 }
-.navigation {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,7 +117,7 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.bottomform {
+.botform {
     display: flex;
     flex-direction: column;
     padding: 32px; 
@@ -149,7 +149,7 @@ body {
     gap: 6px;
     padding: 20px 20px 20px 24px;
 }
-.nameofaccount {
+.nameaccount {
     font-size: 20px;
     color: #000000; 
     font-weight: 500;
@@ -185,7 +185,6 @@ body {
     flex-wrap: wrap;
     column-gap: 32px;
     row-gap: 25px;
-    flex-wrap: wrap;
 }
 .botinf1 {
     flex: 1 1 calc(50% - 32px);
